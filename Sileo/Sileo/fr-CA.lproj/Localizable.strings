@@ -1,15 +1,15 @@
-/* 
+/*
   Localizable.strings
   Sileo
 
   Created by AppleBetas on 2018-12-27.
   Copyright © 2018 CoolStar. All rights reserved.
- 
+
  BASE (Français) LOCALISATIONS
 */
 
 // Credit Information (optional, uncomment to specify)
-"__LocalizationCredit.Title" = "Traduction française par Justin Proulx";
+"__LocalizationCredit.Title" = "Traduction française par Justin Proulx et MaddieX";
 "__LocalizationCredit.URL" = "https://www.twitter.com/JustinAlexP"; // (optional)
 
 // Common Prompts
@@ -26,7 +26,7 @@
 "Cancel" = "Annuler";
 
 // Statuses for queued/downloading packages. Shown under their name in the queue/status popup.
-"Installing_Package_Status" = "Installation";
+"Installing_Package_Status" = "En train d'installer";
 "Downloading_Package_Status" = "Téléchargement";
 "Queued_Package_Status" = "En file d'attente";
 "Ready_Status" = "Prêt";
@@ -35,7 +35,7 @@
 "Download_Progress" = "%@ de %@"; // first %@ = amount downloaded, second %@ = total to download
 
 "Queue_Confirm_Button" = "Confirmer";
-"Queue_Clear_Button" = "Supprimer la file d'attente";
+"Queue_Clear_Button" = "Vider la file d'attente";
 
 "Package_Upgrade_Action" = "Mettre à jour";
 "Package_Reinstall_Action" = "Ré-installer";
@@ -52,7 +52,7 @@
 "Package_Hold_Disable_Action" = "Arrêter d'ignorer les mises à jour.";
 "Package_Wishlist_Add" = "Ajouter à la liste d'intérêt";
 "Package_Wishlist_Remove" = "Enlever de la liste d'intérêt";
-"Wishlist" = "Liste d'intérêt";
+"Wishlist" = "Liste de souhaits";
 
 // Headings for sections in the queue/status popup.
 "Queued_Install_Heading" = "Installer";
@@ -109,7 +109,7 @@
 "Version" = "Version";
 "Show_Package_Contents_Button" = "Dévoiler les contenus du paquet";
 
-"Settings_Payment_Provider_Heading" = "Fournisseurs de paiement";
+"Settings_Payment_Provider_Heading" = "Magasins";
 "Settings_Translations_Heading" = "Traductions";
 
 "Settings_Payment_Provider.Purchases_Heading" = "Achats";
@@ -120,7 +120,7 @@
 "Payment_Provider_Signed_In_With_Name" = "Utilisateur connecté: %@"; // %@ = user's name
 "Payment_Provider_Sign_Out" = "Déconnexion";
 "Payment_Provider_Sign_Out_Confirm.Title" = "Déconnecter de %@"; // %@ = payment provider name
-"Payment_Provider_Sign_Out_Confirm.Body" = "Vous ne serez pas capable de télécharger vos paquets acheter avant de re-connecter.";
+"Payment_Provider_Sign_Out_Confirm.Body" = "Vous ne serez pas capable de télécharger vos paquets acheter avant de re-connecter. Etes-vous sur que vous voulez se deconnecter?";
 
 "Package_Filter_User" = "Utilisateur";
 "Package_Filter_PowerUser" = "Super-utilisateur";
@@ -141,5 +141,3 @@
 "Dangerous_Repo.Last_Chance.Body" = "Les sources dangeureuses peuvent avoir des effets néfastes sur votre capacité d'utiliser votre appareil et appliquer les jailbreak. Nous recommendons fortement que vous retournez en sécurité.";
 "Dangerous_Repo.Last_Chance.Continue" = "Continuer";
 "Dangerous_Repo.Last_Chance.Cancel" = "Retourner";
-
-
